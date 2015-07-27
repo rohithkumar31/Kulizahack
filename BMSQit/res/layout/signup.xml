@@ -3,16 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
     
-    <TextView 
-        android:textColor="#076727"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_marginTop="75dp"
         android:layout_centerHorizontal="true"
-        android:text="BMS Qit" />
-    
+        android:layout_marginTop="75dp"
+        android:text="BMS Qit"
+        android:textColor="#076727"
+        android:textSize="30sp"
+        android:textStyle="bold" />
     
     <LinearLayout
         android:id="@+id/ll1"
@@ -36,6 +36,18 @@
             android:drawableLeft="@drawable/ic_username"
             android:hint="Username" />
 		    
+		    <EditText
+            android:id="@+id/usn"
+            style="@style/editext_graybg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="USN" />
+		    
+		  
+ 
+    				    
 		    <EditText
             android:id="@+id/user"
             style="@style/editext_graybg"

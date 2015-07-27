@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         
+         
         <activity
             android:name="com.example.BMSQit.Login"
             android:label="@string/app_name" >

@@ -4,5 +4,16 @@
     <string name="app_name">BMSQit</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="signup">Sign Up</string>
+    <string name="cse">CSE</string>
+     <string name="ise">ISE</string>
+      <string name="ece">ECE</string>
+       <string name="eee">EEE</string>
+        <string name="tce">TCE</string>
+         <string name="mech">MECH</string>
+    
+  
 
+    
+    
 </resources>

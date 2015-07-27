@@ -3,9 +3,6 @@ package com.example.BMSQit;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
-
-import com.example.BMSQit.R;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;

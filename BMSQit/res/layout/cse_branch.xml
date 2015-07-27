@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ScrollView01"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fillViewport="true">
     
-<RelativeLayout
+<RelativeLayout 
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    >
     
-     <LinearLayout 
+   <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -23,19 +25,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
         
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
         
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-             android:textStyle="bold"
-            android:text="@string/ece"
-            android:textColor="#076727"
-            android:background="#EFEFEF"
-            android:textSize="15sp" />
+          
 
     <LinearLayout
         android:id="@+id/all_doubts"
@@ -73,7 +69,7 @@
         android:layout_marginTop="2dp"
         >
 	            <Button
-	                android:id="@+id/post_doubt_btn" 
+	                android:id="@+id/answer_btn" 
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -84,10 +80,10 @@
 	                android:paddingBottom="5dp"
 	                android:background="#076727"
 	                android:layout_marginRight="2dp"
-	                android:text="Post a Question"
+	                android:text="Answer"
 	                />
         		<Button 
-        		    android:id="@+id/more_btn"
+        		    android:id="@+id/check_answer_btn"
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -97,7 +93,7 @@
 	                android:paddingTop="8dp"
 	                android:paddingBottom="5dp"
 	               android:background="#076727"
-	                android:text="More"
+	                android:text="Check Answers"
 	                />
     </LinearLayout>
     
@@ -107,25 +103,19 @@
 
 </LinearLayout>
 </LinearLayout>
-    
-     
-     <LinearLayout 
+
+      <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
         
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-             android:textStyle="bold"
-            android:text="@string/cse"
-            android:textColor="#076727"
-            android:background="#EFEFEF"
-            android:textSize="15sp" />
+          
 
     <LinearLayout
         android:id="@+id/all_doubts1"
@@ -163,7 +153,7 @@
         android:layout_marginTop="2dp"
         >
 	            <Button
-	                android:id="@+id/post_doubt_btn1" 
+	                android:id="@+id/answer_btn1" 
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -174,10 +164,10 @@
 	                android:paddingBottom="5dp"
 	                android:background="#076727"
 	                android:layout_marginRight="2dp"
-	                android:text="Post a Question"
+	                android:text="Answer"
 	                />
         		<Button 
-        		    android:id="@+id/more_btn1"
+        		    android:id="@+id/check_answer_btn1"
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -187,7 +177,7 @@
 	                android:paddingTop="8dp"
 	                android:paddingBottom="5dp"
 	               android:background="#076727"
-	                android:text="More"
+	                android:text="Check Answers"
 	                />
     </LinearLayout>
     
@@ -198,24 +188,18 @@
 </LinearLayout>
 </LinearLayout>
 
-     
-     <LinearLayout 
+       <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
         
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-             android:textStyle="bold"
-            android:text="@string/ise"
-            android:textColor="#076727"
-            android:background="#EFEFEF"
-            android:textSize="15sp" />
+          
 
     <LinearLayout
         android:id="@+id/all_doubts2"
@@ -253,7 +237,7 @@
         android:layout_marginTop="2dp"
         >
 	            <Button
-	                android:id="@+id/post_doubt_btn2" 
+	                android:id="@+id/answer_btn2" 
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -264,10 +248,10 @@
 	                android:paddingBottom="5dp"
 	                android:background="#076727"
 	                android:layout_marginRight="2dp"
-	                android:text="Post a Question"
+	                android:text="Answer"
 	                />
         		<Button 
-        		    android:id="@+id/more_btn2"
+        		    android:id="@+id/check_answer_btn2"
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -277,7 +261,7 @@
 	                android:paddingTop="8dp"
 	                android:paddingBottom="5dp"
 	               android:background="#076727"
-	                android:text="More"
+	                android:text="Check Answers"
 	                />
     </LinearLayout>
     
@@ -288,24 +272,18 @@
 </LinearLayout>
 </LinearLayout>
 
-     
-     <LinearLayout 
+       <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
         
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-             android:textStyle="bold"
-            android:text="@string/mech"
-            android:textColor="#076727"
-            android:background="#EFEFEF"
-            android:textSize="15sp" />
+          
 
     <LinearLayout
         android:id="@+id/all_doubts3"
@@ -343,7 +321,7 @@
         android:layout_marginTop="2dp"
         >
 	            <Button
-	                android:id="@+id/post_doubt_btn3" 
+	                android:id="@+id/answer_btn3" 
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -354,10 +332,10 @@
 	                android:paddingBottom="5dp"
 	                android:background="#076727"
 	                android:layout_marginRight="2dp"
-	                android:text="Post a Question"
+	                android:text="Answer"
 	                />
         		<Button 
-        		    android:id="@+id/more_btn3"
+        		    android:id="@+id/check_answer_btn3"
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -367,7 +345,7 @@
 	                android:paddingTop="8dp"
 	                android:paddingBottom="5dp"
 	               android:background="#076727"
-	                android:text="More"
+	                android:text="Check Answers"
 	                />
     </LinearLayout>
     
@@ -378,24 +356,18 @@
 </LinearLayout>
 </LinearLayout>
 
-     
-     <LinearLayout 
+       <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
         
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-             android:textStyle="bold"
-            android:text="@string/eee"
-            android:textColor="#076727"
-            android:background="#EFEFEF"
-            android:textSize="15sp" />
+          
 
     <LinearLayout
         android:id="@+id/all_doubts4"
@@ -433,7 +405,7 @@
         android:layout_marginTop="2dp"
         >
 	            <Button
-	                android:id="@+id/post_doubt_btn4" 
+	                android:id="@+id/answer_btn4" 
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -444,10 +416,10 @@
 	                android:paddingBottom="5dp"
 	                android:background="#076727"
 	                android:layout_marginRight="2dp"
-	                android:text="Post a Question"
+	                android:text="Answer"
 	                />
         		<Button 
-        		    android:id="@+id/more_btn4"
+        		    android:id="@+id/check_answer_btn4"
 	                android:layout_width="0dp"
 	                android:layout_height="40dp"
 	                android:layout_weight="1"
@@ -457,7 +429,7 @@
 	                android:paddingTop="8dp"
 	                android:paddingBottom="5dp"
 	               android:background="#076727"
-	                android:text="More"
+	                android:text="Check Answers"
 	                />
     </LinearLayout>
     
@@ -467,22 +439,8 @@
 
 </LinearLayout>
 </LinearLayout>
-    
-    
-    
-  <!--   <Button 
-        android:id="@+id/add_poll"
-        style="@style/btn_large"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="10dp"
-        android:text="Add Poll"
-        android:layout_alignParentBottom="true"
-        />-->
- 
- </LinearLayout>
+</LinearLayout>
 
 </RelativeLayout>
+
 </ScrollView>
