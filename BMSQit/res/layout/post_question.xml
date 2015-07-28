@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        
+        android:background="#ffffff"
+        android:layout_alignParentBottom="false"
+        >
+
+         <TextView 
+        android:textColor="#076727"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="false"
+        android:text="Enter Branch" />
+         
+         <EditText
+            android:id="@+id/q_branch"
+            style="@style/editext_graybg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="Branch" />
+        
+         <TextView 
+        android:textColor="#076727"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="false"
+        android:text="Question" />
+         
+         
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/textview_border"
+        android:inputType="textMultiLine" 
+        android:lines="8" 
+    	android:minLines="6" 
+    	android:gravity="left" 
+    	android:maxLines="10" 
+        android:scrollbars="vertical">
+
+        <requestFocus />
+    </EditText>
+    
+    <Button 
+		        android:id="@+id/btnSubmit"
+		        style="@style/btn_large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+		        />
+    
+    </LinearLayout>
+
+</RelativeLayout>

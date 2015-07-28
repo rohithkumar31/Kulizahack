@@ -9,8 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class Answer extends Activity{
-	
+public class PostQuestion extends Activity {
 	Button b;
 
 	@Override
@@ -20,8 +19,8 @@ public class Answer extends Activity{
 		
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#263238")));
-		bar.setTitle("Your Answer");
+		bar.setTitle("Post A Question");
 		
-		setContentView(R.layout.answer);
+		setContentView(R.layout.post_question);
 }
 }

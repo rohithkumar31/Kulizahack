@@ -9,8 +9,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.Button;
 
-public class Answer extends Activity{
-	
+public class AnswersList extends Activity {
+
 	Button b;
 
 	@Override
@@ -20,8 +20,8 @@ public class Answer extends Activity{
 		
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#263238")));
-		bar.setTitle("Your Answer");
+		bar.setTitle("Answers");
 		
-		setContentView(R.layout.answer);
+		setContentView(R.layout.answers_list);
 }
 }
