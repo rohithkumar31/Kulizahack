@@ -58,6 +58,7 @@ public final class R {
         public static final int check_answer_btn3=0x7f080017;
         public static final int check_answer_btn4=0x7f08001a;
         public static final int editText1=0x7f080000;
+        public static final int email=0x7f080030;
         public static final int forgotpwd=0x7f08002a;
         public static final int linearLayout1=0x7f080003;
         public static final int ll1=0x7f080025;
@@ -79,7 +80,6 @@ public final class R {
         public static final int ratingBar3=0x7f08000c;
         public static final int textView1=0x7f08002d;
         public static final int tv=0x7f080028;
-        public static final int user=0x7f080030;
         public static final int username=0x7f080026;
         public static final int usn=0x7f08002f;
     }

@@ -22,5 +22,7 @@ public class PostQuestion extends Activity {
 		bar.setTitle("Post A Question");
 		
 		setContentView(R.layout.post_question);
+		
+		
 }
 }
