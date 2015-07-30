@@ -23,6 +23,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
         
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
@@ -32,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
              android:textStyle="bold"
-            android:text="@string/ece"
+            android:text="@string/cse"
             android:textColor="#076727"
             android:background="#EFEFEF"
             android:textSize="15sp" />
@@ -114,6 +117,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
@@ -122,7 +128,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
              android:textStyle="bold"
-            android:text="@string/cse"
+            android:text="@string/ece"
             android:textColor="#076727"
             android:background="#EFEFEF"
             android:textSize="15sp" />
@@ -205,6 +211,9 @@
         android:orientation="vertical"
         android:layout_marginTop="10dp"
         android:background="#EFEFEF"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
         android:layout_alignParentBottom="false"
         >
         
@@ -294,6 +303,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
@@ -384,6 +396,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
         android:background="#EFEFEF"
         android:layout_alignParentBottom="false"
         >
